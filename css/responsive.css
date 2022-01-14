@@ -1,0 +1,201 @@
+@media only screen and (max-width:1024px){
+	.container{
+		width: 950px;
+	}
+	.menu-area ul li{
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width:768px){
+	.container{
+		width: 700px;
+	}
+	header .logo-area{
+		width: 22%;
+	}
+	header .menu-area{
+		width: 58%;
+			padding: 1.5px 0 0 0;
+	}
+	header .contact-area{
+		width: 20%;
+	}
+
+
+
+	.service-area .service-item{
+		width: 48%;
+		margin-bottom: 10%;
+		height: 271px; 
+	}
+	.service-area .service-item:nth-child(2),
+	.service-area .service-item:nth-child(4){
+		margin-right: 0%;
+	}
+	.service-area .service-item i{
+		margin-left: 38%;
+	}
+
+
+	.macbook-area .text-area{
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin-bottom: 50px;
+	}
+	.macbook-area .img-area{
+		width: 80%;
+		margin: auto;
+		display: block;
+		margin-right: 10%;
+		margin-bottom: 50px;
+		overflow: hidden;
+	}
+	.news-area .news-item{
+		width: 50%;
+		margin: auto;
+		display: block;
+		float: none;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.news-area .news-item:lst-child{
+		margin-bottom: 0px;
+	}
+	.latest-news .latest-news-item{
+		width: 70%;
+		float: none;
+		overflow: hidden;
+		text-align: center;
+		margin: auto;
+		display: block;
+		margin-bottom: 50px;
+	}
+	.news-area{
+		padding-bottom: 20px;
+	}
+	.latest-news .latest-news-item .white-border{
+		margin-left: 28%;
+	}
+	.latest-news .latest-news-item .black{
+		margin-left: 24%;
+	}
+	.latest-news .latest-news-item:last-child{
+		margin-bottom: 0px;
+	}
+
+	footer .left-area{
+		width: 33%;
+		margin-right: 2%;
+	}
+}
+
+
+
+@media only screen and (max-width:425px){
+	.menu-area{
+		display: none;
+	}
+	.contact-area{
+		display: none;
+	}
+	.container{
+		width: 390px;
+	}
+	.service-area .service-item{
+		width: 100%;
+		float: none;
+	}
+	.service-area .service-item i{
+		margin-left: 39.5%;
+	}
+	.news-area .news-item{
+		width: 80%;
+	}
+	.latest-news .latest-news-item{
+		width: 90%;
+	}
+	footer{
+		min-height: 520px;
+	}
+	footer .left-area{
+		width: 70%;
+		display: block;
+		overflow: hidden;
+		float: left;
+		margin-right: 10%;
+	}
+	.middle-area{
+		width: 20%;
+		float: none;
+		padding: 70px 0 0 0;
+	}
+	.right-area{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.latest-news .latest-news-item .white-border{
+		margin-left: 22%;
+	}
+	.latest-news .latest-news-item .black{
+		margin-left: 17%;
+	}
+	header{
+		position: relative;
+	}
+	.display i{
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		font-size: 29px;
+		cursor: pointer;
+	}
+	.display i: hover .menu-area{
+		display: block;
+		position: absolute;
+		text-align: center;
+		background: red;
+		top: 0;
+		left: 0;
+	}
+	.display i:hover .menu-area ul li{
+		float: none;
+	}
+	.display i:hover h1{
+		color: red;
+	}
+}
+@media only screen and (max-width:375px) {
+	.container{
+		width: 350px;
+	}
+}
+@media only screen and (max-width:320px) {
+	.container{
+		width: 300px;
+	}
+	footer{
+		min-height: 550px;
+	}
+	footer .left-area{
+		width: 75%;
+		margin-right: 0;
+		float: left;
+	}
+	footer .middle-area{
+		width: 25%;
+	}
+	footer .right-area{
+		width: 100%;
+	}
+	footer .right-area input{
+		width: 130px;
+	}
+	.latest-news .latest-news-item .white-border{
+		margin-left: 15%;
+	}
+	.latest-news .latest-news-item .black{
+		margin-left: 8%;
+	}
+}
